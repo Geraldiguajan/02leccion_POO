@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:padding="16dp"
+    android:background="#47E64E">
+
+
+<TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo: $0.00"
+        android:textColorHighlight="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnDepositar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depositar dinero"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#7454114E"
+        android:textColor="#FFFFFF"
+    android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnRetirar"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#195C7A"
+        android:gravity="center"
+        android:text="Retirar dinero"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnTransferir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transferir dinero"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#83183C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"
+    />
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver historial de transacciones"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#8A6B0B"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historial:"
+        android:textSize="20sp"/>
+
+</LinearLayout>
